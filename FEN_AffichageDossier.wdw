@@ -1,0 +1,972 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_AffichageDossier
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_AffichageDossier
+ identifier : 0x281af24209e0f33a
+ internal_properties : CAAAAAgAAACX8Z+Qxy9N/zIWdDEaSDRMeBouHNSsE+ycjKoQZEfWcZLQMVv048AGkwCs95yTSe9kaPwaMeXlf0EwSM5rVoow7TVcudlAasvBY+grZNyKidA+ZVpH24Det41GNXw+bmQ3q5OkJ0aQFSNumUCkeGV5o6rxm6RuVPp2b2zMS2idun2KyHbUYKJT9syoPjjw8Al9NAh6MPy1ie3ieui3vXrvlOND5/BrTwKe3SlFU0qUlCG82Yi2C1R0zYWvjz1P06PRliDDy/7pK6sS+bWmw6VFyynt+qVbDja7ZHODMixYsvhx4dxMFv6SuHhfwxxx7MlT8s4eMkbch/6YrQQe4MkBuJZh5w/0lpyvC7f3JL1mXLCmmxOGTGbd1pMBZqmEbeHzyRmjfFbYfcMfekwsWRC6/wMb0qetySaUy+Kbj/Z0Am4O43iSihk0QG+xPUxnH+k21DzX1cxot8mi4NqfW9kG6yFDyox/HFrO45/PeVDSvr3EmYqlhQ4UhqxqzdOQujBswWScZxvLH7RZSPn8aV9B6TYd0ODEm5lSA+DR5ySIAy3v51J2JMSDgFE4MGmOkg4EhTkcirPrzU95Dk5pscuZe2Ru5JiYRB5wNwukOPsRvItooK/Jb3NDLbzJYaYqqf195+CLEwXLZNARakquTDiobVBppuf5h36rQ5GRM53nVh0740B2DUh2iewXvvX1UOWouzNQilFcMmMkzD4VHzFpG/8bBSiAq84pFCSLirYP5Pe2xKaFWPY1REE+ueXY9Cdxo5wjo5g+rzGUtsq5sWCSDh5rpUWwwEwhJve/stvt8Y4Gs5lIoyT2j+pLUA==
+ properties :
+  width : 320
+  height : 408
+  heightMin : 481
+ controls :
+  -
+    name : ZR_DossiersFichiers
+    identifier : 0x281b05800f7b1bc4
+    internal_properties : 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
+    properties :
+     x : 2
+     width : 317
+     height : 408
+    controls :
+     -
+       name : LIB_Nom
+       identifier : 0x281b069f10857c4f
+       internal_properties : CAAAAAgAAADcm0LdH9Dth8ix52KjVd9kamZ2Dh5TdVCpT/15i3ejZmgYzXHcBbauwRpEHmJ5C3SdllMkYACAbEKqMzIfqVEUNWzQGiS9j/XnkIETC5gm6jeHE1MSq1Sz6b310HqxD2IM6m1eRgWUlyXXYrmw0/k9Ik9NZvihvh0Hp/KCUiEcvYzDn9oVPaR0eCuAidATbTLFnPXgXvibp6TW7S+/QqFQmmtI0F9vYeL7nXtBSNdfVF60e5pJXxA6FzRMaFoMFMGLE/nnPIiyno5DmHSgdDN5dDBEuWeNIudpNZg2H+HHhiKSDdtKyKggt4W4nLD4FNPft4RqP2BD7mxhmsDPqyR4dOXonTorqrGl8GRWKdAhGH36V/TWWGXN/bqA7844UFtGiMH6vzOLfOUFu5GU5qlSduYZIq6PPT5kvWGuj8BHZlhsnjuaUJe3SmYuvLueRszu8NsyvSCn
+       properties :
+        x : 4
+        y : 59
+        width : 97
+        height : 28
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_Logo
+       identifier : 0x281b069a10766a1f
+       internal_properties : CAAAAAgAAAAFRR/XElsqbYsXeWsDEK7mi1+k8VoWJsTN3zRNeSPjfEWjdooEH8jE8PJPReB2hycioA/GZwtkcCYduaTunw/5ppWblWbr5w42jxR/K9jwCEKXjAWUlDJou4Bajzg80aRNj1uJ4WDtPQCpk5oWx6M36YqpHLV5IcF7s4+bpSxfIahW4Yzu1uLr4PIbTtVNjW01Px7ZC/4I616euLBBJaZGdWC+H5L/QNg1MRPjhbH70rEhtEXeyUj/Np72U5X6DxEY06LlrwWJjHOZta1X5YsNampnv8mzx9qRFACGWVWpGrCrfts1CJnJ/7SALrh8DoX6s4ihECn6xb+ZSNis+TylZjPJkhNFbKebWSTmRF/auLssTVBYa4/e/SgbZdJz3xwdWrhbwI8xb7oUJiDSVzfnaZXYJwSDW3+X95XD8rZ8rqqfJxVZb8Rl13VcMHy5SfJTiGzoYcwhRtxOD4mUqYVcJC18dg43E02OxZLfAVId+Y1Ty60DAba22MFLJJRcblbFGnY3XqKB/lXNru3W7v89DSuL89qI+oUVdrBYR6MFZkVAT1kD79FLXk7xr73PHaJ6L8PfCKuFzV8lF15GFSRFTUF54qhP6bHzmXk37dY28CbSr9lZ0VO08BKe7iFPrOKxoetauPn7JIYbBqPYabLuYRyQQtz1/gpmOHDdoS2JH6TBY7H8qg7QXmF6Ribq0wWeMp5UXGejE7hOQj4zSIaTqqxo8LfD2hcfOuNYQBbModgJHUBLWoE/1zYkb/GUGyLgCxQhoPSesDk4GL6I91aXzZ6xORq+wc5XxNNdiour84FUIZoCtxEYg1BsSFhQlrQSEg==
+       properties :
+        x : 4
+        y : 6
+        width : 97
+        height : 45
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           type : 18
+           enabled : false
+         -
+           code : |1-
+            
+           type : 65659
+    columns :
+     -
+       name : ATT_CheminComplet
+       identifier : 0x281b646b07f8e297
+       internal_properties : CAAAAAgAAAAMPrqfGCgB7Ffdj+R2IxK9HVRAsLW84Qh+SI9dnVA2N+YJYn6W9dQcVLWqrANbmqoOIpzbDHyNMz6NEQue1Jgi1/dc5ipSvpTrc4dLWWFxWnoK528sosgi98Y6brzDMyqJmkhDGFr/Ag==
+       type : 3
+       content :
+        identifier : 0x2543d7fc0653eead
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Selection
+       identifier : 0x282f2b1b05e155d1
+       internal_properties : CAAAAAgAAACToR3CXfV6v5wqOteBRHHAEEtHv6qtzv/zEmTfz046UTUsyNLoO1qoCBnMSllJCpy8+HAnv+kAoq++wKT3b4UPKLhTj0FdCsHGboCSMGL85+n51nAtocklyundg4kWZt/cdZOIxfWUmQ==
+       type : 3
+       content :
+        identifier : 0x2543d7fc0655eead
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Type
+       identifier : 0x28359bfd060a4e00
+       internal_properties : CAAAAAgAAAC0RnIn8JAZ5F/Vd5y+W6rltWyoCN3UaZD210WxAbLWh5LTktJq+ZigGKnaUEenttp+xrDXEjYPAQxbe6ncMsIsPRU2rKioJmBHn5WFA9cZggKSf8fEyvDKrw7ytsTLKyKBkrDrYBK3ug==
+       type : 3
+       content :
+        identifier : 0x2543d7fc0657eead
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         // Cas d'erreur
+         si ZR_DossiersFichiers = -1 ALORS
+         	retour
+         FIN
+         
+         // On gère la sélection 
+         si ZR_DossiersFichiers[ZR_DossiersFichiers].ATT_Type = type_Dossier ALORS
+         	GestionSélectionDossier()
+         FIN
+         
+         si ZR_DossiersFichiers[ZR_DossiersFichiers].ATT_Type = type_Fichier ALORS
+         	GestionSélectionFichier()
+         FIN
+         
+         // On gère les options visibles
+         GestionOptionDispo()
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+      -
+        type : 66049
+      -
+        type : 66050
+      -
+        type : 65793
+      -
+        code : |1+
+         // Mode multi sélection
+         gbModeSélection = vrai
+        type : 65659
+  -
+    name : BTN_Retour
+    identifier : 0x2857b80e04126dcf
+    internal_properties : CAAAAAgAAAAOuc968Zf0IR0zRSvJDAvZomyzCBc+rK9pBdxtTkJOufQE3LEdZXr4cqa7k60c2bn/ARFLAA6PQV0lO3Jli4KREpLxbQqj0MGZy5sxlgPFa1x8+/veZdq7XBTSaioxNKqS09xGX3QOawAQtw3XMgz1nZ7wdAA0zsHV2SI9qXqgCZ8vToaFUCbkvOmtHnAerEK2Wsql31rNsvoQzW4aQkDozV7mU5nGg2i9hhJH8eg6SYSTvhu12DH21LhrkiuYSrdGuMEjSeakyd1EoxsLH+dUMjmxKf+vRbcXnA7BBckh5gUXDM/Y994YzJFN2ehc8V96PaGk4ym6htS38fzNB4Dpg8+RwhxuNhjqjMZJtmVUcUrngaEpGQ/xseafnnLmTachW486bWGy8lW5VriCsAiKOtf52S+1NxKcRtFUGcVKKwM57lrJ8HOMW7ch4lUaeE/iZllvbQAoUq49LLIkVpHGv1cny0AYBXUI5a3y0DPGllNApA3Fxy2LOGzsmlbr5MxF6dS7ctFvRhDfHxUBDwsLWIp3O9eJl9ebkfbERdN0E4iMNifCRg48QvwII/IBdEB3Y8y4/PY3iW1ZsbW8L+qtUB/CcdYINdKvnp8eFayjcoVQbhEAG5Htg/D7f15SjHEEDIklcBzM7rWjkq1Sa9GyXk83HLx+ckgwKt/W8rTHgR/W51gbQa6nw2kTW2uQOoUXBWovA+3QIJXdtmIcBD+mcty6tGx7OaNqSR4W7SzhAxJs4ZZ53QVLknW8hSPQOeSJaau/ztGNNA0hD4XiIqQTWLD3Rj9ipK7COSweKU/HbZ0CaP+4orxojj0T0E9T+UcC4u++5C/ViLm1qO9UB0wC0fZKrpwN6v6CPnXjHHZTvFDK/FXwirdt71Pf3axZHcXSG77CxxlpSiQ=
+    properties :
+     x : -347
+     y : -8
+     width : 162
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Gère la fenêtre coulissante de gauche pour la masquer si elle est visible et que l'on appuie sur le bouton retour
+         si FenCoulissanteVisible(fcGauche) = vrai ALORS
+         	FenCoulissanteVisible(fcGauche,faux)
+         sinon
+         	ferme(FEN_AffichageDossier)
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x281af24209e1f33a
+  internal_properties : CAAAAAgAAAABOBjO1kZUIq/FbWGUVYPO7L/x071/pezvCcsaxbI5tEOw5AOTs0g53xq1Qm1FITbIswLJeegD6s81tWEd42dSIODl5rh6k8wqoAchsASPlBLcJ2oqBebkcXOaQkfwW4KwLvXvkSHYcqk5u95Mey2Dt4jUot6NibxxDg9p8E03zdGfqi6tqbWPxTwdA88HOv4ezugIqbHZL6fR4hqViKEbFra7MVGN/YKmRFbbwhXhbcPIfSNSWPJDtDFIHTE1RxVMDkGv43ObeF8QaTACm4whuWsHAH93bCsUMjI5l/LdPHokXUF+A4GF6Vv+Vn/lQ+lvl2eysErZPOL/6b9ne68+oKEFsquR7JoDadHEl92ZVAj2cZgfnuNi9AJQE3EMMRHncmfZzsLdxDucyXoOIiAZrdGHiK4tTuC7ePsvYkwcP21+JwHk9fj+tipmhxoMdg==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      code : |1-
+       // Modifie le contenu de la ZR
+       AfficheContenu()
+      type : 239
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options :
+   -
+     name : OPT_Recherche
+     identifier : 0x281b3b0a04d43e86
+     internal_properties : CAAAAAgAAADjGp3r2+UT1KWNgPwj2OCy45509ePxF2Lqe1h3obSPsaXxT/E1Mue8cU5LJY26BD0JCU6WkiGy+8wOWhj9uaRqmZe+c/xbeK0QeSeFOatCC64Uz5a32OrYUu1qMMuqD6oAZQZXHRDrfeOqUp1+MNlEHW119g1V4yXb+o7e1pPcoq32LKDFYz9u+LBrskg9HvwJ7BR+s4H35VCAXgm5SlrExDYDblfvxyfSZJIcDdsZ0UA2gfPDUMF1aL+08e/yJULnO1ObE6krApedsKF6AAmDfuPDajNZD59EvPebM0UtuHwAnLKgMbvOg6qi
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          // Active la recherche
+          ActionBarRechercheVisible(vrai,"Entrez le nom du fichier")
+         type : 32
+   -
+     name : OPT_Nouveau_dossier
+     identifier : 0x281b3b7804f3ec74
+     internal_properties : CAAAAAgAAADaYw4btyOeDztmAWDrEc1jBH9x6j6FvkJ47ARiCLKCV7Spdn9N5LlAB7TdTqW/1QOIkQHwvztbgWphChNcfwY+I/xfU42G1ztkuD25uJoG6hxBIBkDgU4vjrDE1VSJO2FPo5Rbc2ovtmNyvn5tDLM8RJUNUiYqO3OH3TrYzPr3Wsvv3aMUkUSZARRJXjiEoLuYwUapLiMbbpzG4ZllQpZ7GQcMXZcnnyiBSbin70V/MpnIlaF04Fophl2vqzr+uTG2nUuUJ5udsh4VefrmUcdvIgpBiveuv5SXxx4rXHlfSsb59JsNd7JtCNdQ3XMlHN019Tk=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          // Ouvre la fenêtre pour créer un dossier
+          OuvreFenêtreMobile(FEN_Renomme,"Nouveau dossier","",vrai,gsRepEnCours)
+         type : 32
+   -
+     name : OPT_Renommer
+     identifier : 0x281b3c7f0559eee2
+     internal_properties : CAAAAAgAAAChZ2VuC+gHg/4C8KED+llV17wukfh3LYsP863ezw8mMk1/KdXjisdpWDGpGyGzQnC88lxlUfnmf6Q32+c5J6b0yh5he7De6wbtMdJ0UEVzUAZ4d5h299x9LhHy+/Ac7YqwfcwBfriQxuVizlMmZ+35bUYenoWLlYxwaF/owQAidW/kh0GGIj3bwYm1zTzzfcHNjGTa68PE/PfKLY8tvntVVNahdBNMcXmcsyDY/DYX0O+oVNzrPqqYe6JJwVEk85AfCHZx/LikG4aPx5JUlvyn5HFTz1lZzVQJtn5rAr/ofSrCXU132S4=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          // Récupère la sélection
+          sFichier est une chaine = RécupèreSélection()
+          
+          // Ouvre la fenêtre de renommage
+          OuvreFenêtreMobile(FEN_Renomme,"Renommer",fExtraitChemin(sFichier,fExtension+fFichier),faux,sFichier)
+          
+          // Rafraîchit la fenêtre
+          InitialisationFenêtre()
+         type : 32
+   -
+     name : OPT_Zip
+     identifier : 0x281b3c7f055aef30
+     internal_properties : CAAAAAgAAABI6be9vbR9p5PbxSotzl+ufoeKO8h91gGw5oxxVJSF+jBO6a2IOZKesiOvX6nLRLuj26P0eHMXGkErzIU1LkLbiWJ4zOXw/RCKWOklRlf+k6Aw7hX656pIbiT0zuqqZXnoVsVUiegwkHXTzyux4HApSpo1cVIgD1/eKNa/1o1JWtv87U9kaKbjG+HvCoBACIiCMqTU3a91FdbTb9zU0R0A4eIDdTc4pHAKdaNcjAhA7O4hu+0dqJ335Vm5jkxOHms/JfMY//bAEecYbF0M//B6PXWXFg8n/v7vru+V2n8Hfaw=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         internal_properties : CAAAAAgAAACbXULZJfffll9sD2q8R6j5m60cbOhNAxM36nu4+NXPJ8HkVuDrCNl9+EMDBJCe9e5/CjpwEHTeEJKZHPGshHLQua1Qp8EgtJS4+lZAovbM1lfVpI/WD6ITRCSxCMM1i3ARMRONTjiuAvTGZzw=
+         code : |1+
+          // Préparation du zip
+          sNomArchive est une chaine
+          sNomArchiveComplet est une chaine
+          
+          // Saisie du nom de l'archive
+          si saisie("Nom de l'archive ?",sNomArchive) = 0 _ou_ sNomArchive = "" ALORS
+          	// On ne veut pas créer d'archive
+          	retour
+          FIN
+          
+          // On crée l'archive
+          
+          // Formate le nom de l'archive
+          sNomArchiveComplet = sNomArchive
+          sNomArchive=fExtraitChemin(sNomArchive,fFichier)
+          
+          // Si pas d'extension, on force le zip
+          si fExtraitChemin(gsRepEnCours+[fSep]+sNomArchiveComplet,fExtension) ~= "" ALORS
+          	sNomArchiveComplet +=".zip"
+          FIN
+          
+          // Crée l'archive
+          si zipCrée(sNomArchive,gsRepEnCours+[fsep]+sNomArchiveComplet) > 0  ALORS
+          	erreur(erreurinfo(errComplet))
+          	retour
+          FIN
+          
+          // On ajoute les éléments sélectionnés dans l'archive
+          pour TOUTE ligne i DE ZR_DossiersFichiers
+          	
+          	// Élément pas sélectionné, passe au suivant
+          	si ZR_DossiersFichiers[i].ATT_Selection = faux ALORS
+          		continuer
+          	FIN
+          	
+          	
+          	selon ZR_DossiersFichiers[i].ATT_Type
+          	
+          		// Si c'est un dossier
+          		cas ZR_DossiersFichiers
+          			SI zipAjouteRépertoire(sNomArchive,ZR_DossiersFichiers[i].ATT_CheminComplet) > 0 ALORS
+          				Erreur(ErreurInfo(errComplet))
+          				RETOUR
+          			FIN
+          			
+          		// Si c'est un fichier
+          		cas type_Fichier 
+          			SI zipAjouteFichier(sNomArchive,ZR_DossiersFichiers[i].ATT_CheminComplet,zipAucun) > 0 ALORS
+          				Erreur(ErreurInfo(errComplet))
+          				RETOUR
+          			FIN
+          			
+          			
+          		AUTRE CAS
+          			// Erreur 
+          			erreur("Type de fichier inconnu")		
+          	FIN
+          FIN
+          
+          // Ferme l'archive
+          zipFerme(sNomArchive)
+          
+          // Message à l'utilisateur
+          ToastAffiche("Création de l'archive réussie")
+          
+          // Rafraîchit la fenêtre
+          InitialisationFenêtre(gsRepEnCours+[fSep]+sNomArchiveComplet)
+         type : 32
+   -
+     name : OPT_Copier
+     identifier : 0x281b3ba4050698b2
+     internal_properties : CAAAAAgAAAAdM38IWnUl2t9CNqKkdpc7niI/zjrNQmuDtC04A/S7QrW2jDCfW+0g0bR3JNesmUz3LefU1SYXWGlpYI1nL1AKTAwcsMBtpPYS9Y8dyUX68WFyAprcOyeCPWHK5t7FbsK+LPpLOzlgq9+lFLYWPIhoraSE5RamEC2FhZIauho93qljrZtu7NMcTQDRVSAUw87cLygvrPcAXvaqeinCnNZ3mjDETg49FseyNiWjgZb8jfts43g+41pyWpeKkgaHLBKgfdkui885WJiIWJpSWfxxBWC9meZbcc68vkwRHd2WN5JTVGn9rHfxhqEuo+eweUTWwR6pUYBmDTw9rNCCkxEQ
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          // Passage en mode copier
+          gnModeCopierCouper = copier
+          gsFichierCopierCouper = RécupèreSélection()
+          
+          // Annule la sélection et active le bouton coller
+          AnnuleSélection()
+          OPT_Coller..Visible= Vrai
+         type : 32
+   -
+     name : OPT_Couper
+     identifier : 0x281b3ba405079900
+     internal_properties : CAAAAAgAAABkYkxdz0gub1TbeKFzYfwkXxNaGjfxBetrNUqr4mP0e7oD0JCTfzGMUcgvgG/g9IwRTtOEYio5o2ZjURXas0tV7i6MkhEKVHOI7MtUTdbPjmRdzd25IsiZYhaX34Hypfnto/MMIp6HnNocIw2vXf8qsMX0bbx0PvGTo0y8NETB4LyOVmIFZSTRHFeihB0fhvWQa96hTgWQEBL22FuyfMa9RmSCGHAnXkU2iocRuVae9eE5gUyhh/pcAqjKEHiMCJlxXdZC56MS9HMZYwZCwceg9OY/U9jFx8AGQKLbo+ewk1SdOH3flnu2TC9LXtvcQbaK/cC/dfl9AgEigTs1wGLn
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          // Passage en mode couper
+          gnModeCopierCouper = couper
+          gsFichierCopierCouper = RécupèreSélection()
+          
+          // Annule la sélection et active le bouton coller
+          AnnuleSélection
+          OPT_Coller..Visible = vrai
+         type : 32
+   -
+     name : OPT_Supprimer
+     identifier : 0x281b3ba40508993f
+     internal_properties : CAAAAAgAAAC8mMXLMrkHLbeP22zLlg5au744iuTAUy3kyoGtJLmjcIt05mrp7W03Cz5zM3g70VwO5UUuYSBDcmTnjB/Px9r3f2jpWL3TK3yvkkWVChH0vnoLkiI2TFj7eO07En2fzxtEuYTXHL6bMmkXhnqaXVmd3cw5JdqPkEFEbH/VWT/uNdXEObucshpq8YdrMi9bxrOEyxjU4RQ6gXvBD01MDvlCR5ORO7LGDFEhUlPYZpGdmMytUKA0rY/69j7iix2lW+HZcZoghIG3PdN6ynPwqcluRu/D69GsLpMZ3LejxJC/OiRMn3cbQELOhA==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          // Confirmation utilisateurs
+          si Dialogue("Voulez-vous supprimer les éléments sélectionnées ?", ["Supprimer","Annuler"], 1, 2, dlgIcôneQuestion) = 1
+          	
+          	// On supprime tout ce qui est sélectionner
+          	pour TOUTE LIGNE SELECTIONNEE DE ZR_DossiersFichiers
+          		// Suppression de chaque élément
+          		SuppressionElement(ZR_DossiersFichiers.ATT_CheminComplet,ZR_DossiersFichiers.ATT_Type)
+          	FIN
+          	
+          	// Suppression double RC
+          	gsListeAAfficher = remplace(gsListeAAfficher,rc+rc,rc)
+          	
+          	// Affiche un message à l'utilisateur
+          	ToastAffiche("Suppression terminée")
+          	
+          	// Rafraîchit la fenêtre	
+          	InitialisationFenêtre()
+          fin
+         type : 32
+   -
+     name : OPT_Coller
+     identifier : 0x283814f104d9c8d5
+     internal_properties : CAAAAAgAAAB5qZbR8wpT0mYm7oE0EYtky7NI2eWsOVQYTGZOrjkIXk3+zIu7m5SZjCWA6CNSmCp4JKtdjRrvW0EPVzTzV1KyvpT+yjeREEEEJAUo6m2+J/qfB7DuuehauuTm7YF3w42lv8dQn3wYsdYj5DNnnsCcjWaf+EvQtBNzJwn4vIU31kxif79dH2P8ICO1khhdfW7ni0yqH/rKHhGA/JS+E6i9zuqbUqzhA/nMYMVc79ioeG/HG+afNoHlx8OUGbZ1NWhGPWLsW/44S+kIFd1eWPeOAVMZLWdp/zZLRtYm0riMMsw5N+Lsl/GkjmALgyrMRsXuQUTtbBwxdSSVSwUPCdNm+w==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          // On désactive l'option
+          OPT_Coller..Visible = faux
+          
+          // Selon l'option sélectionné on fait ce qu'il faut
+          si gnModeCopierCouper = copier ALORS
+          	si RéaliseCopier = faux ALORS
+          		retour
+          	FIN
+          FIN
+          
+          SI gnModeCopierCouper = couper ALORS
+          	// Un couper est en faite un copier coller puis un supprimer
+          	
+          	// On copie 
+          	si RéaliseCopier() = faux ALORS
+          		retour
+          	FIN
+          	
+          	// On supprime
+          	POUR TOUT CHAÎNE sFichier de gsFichierCopierCouper
+          		
+          		// Suppression des éléments
+          		SuppressionElement(sFichier)
+          	FIN
+          FIN
+          
+          // RAZ de la fenêtre
+          InitialisationFenêtre(gsFichierCopierCouper)
+          
+          // RAZ des infos du mode copier coller
+          gsFichierCopierCouper = ""
+          gnModeCopierCouper = AucuneOpération
+          
+          
+          	procedure interne RéaliseCopier
+          	// On parcourt tous les fichiers pour réaliser la copie
+          	POUR TOUT CHAÎNE sFichier de gsFichierCopierCouper
+          		
+          		// Cas d'erreur
+          		SI sFichier ~="" ALORS
+          			CONTINUER
+          		FIN
+          		
+          		// Copie des répertoires
+          		SI fRepExiste(sFichier) ALORS
+          			// On crée le répertoire
+          			fRepCrée(gsRepEnCours+[fSep]+ExtraitChaîne(fExtraitChemin(sFichier,fRépertoire),1,fSep,DepuisFin))
+          			
+          			// On fait la copie à la main
+          			si fCopieFichier(sFichier+[fSep]+"*.*",gsRepEnCours+[fSep]+sFichier,frRécursif) = faux ALORS
+          				erreur(ErreurInfo(errComplet))
+          				renvoyer faux
+          			FIN
+          		FIN
+          		
+          		// Copie de fichiers
+          		SI fFichierExiste(sFichier) ALORS
+          			si fCopieFichier(sFichier,gsRepEnCours+[fSep]) = faux ALORS
+          				Erreur(ErreurInfo(errComplet))
+          				renvoyer faux
+          			FIN
+          		FIN
+          	FIN
+          	renvoyer vrai
+          	FIN
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  internal_properties : CAAAAAgAAAD6/c0tBl5Fzb2NpSCbxdnsVST5pc+rMXi+MT1lx+K4u+jvGiXm+lK52DkW3oh7HEervP0I3alSdNmFS6fAcz+9uCaFfg==
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      // Opération en cours (copier, coller, ...) - Constante définie dans l'initialisation du projet
+      // Chemin du ou des fichiers qui sont copier / couper 
+      PROCEDURE MaFenêtre(gsListeAAfficher est une chaine, local  gsTitre est une chaine= "Explorateur", local geTypeExtensionEnCours est une EType = vide, gbModeRep est un booléen = vrai...
+      ,local gsRepEnCours est une chaine ="",gpCallBack est une chaine = "")
+      
+      gbModeSélection est un booléen = faux // Vrai si on passe en mode sélection multiple
+      
+      // Titre de la fenêtre             
+      FEN_AffichageDossier..Titre = gsTitre
+   -
+     code : |1-
+      // Initialise la fenêtre
+      InitialisationFenêtre()
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     internal_properties : CAAAAAgAAACmoVLMw6IVaNN+EzbCZ6RfCxh5pVzFPCZhG88znScG1z/Y/PkdJeeP3irLcbXCN5RHeNd369Fx6IvEJqGLFE9HzBcOG+6ib4SBPfY0gUSlaVKJGNF5IaHvg1Ejosjz6t2GLW9jk83MVZZ/lw==
+     code : |1-
+      // Callback en fermeture (pour que la fenêtre précédente soit à jour)
+      si gpCallBack <>"" ALORS
+      	ExécuteTraitement(gpCallBack,trtProcédure)
+      FIN
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 220
+  procedures :
+   -
+     name : GestionSélectionDossier
+     procedure_id : 1737049898816999268
+     type_code : 14
+     code : |1+
+      // Résumé : Gère la sélection ou le lancement d'une application associée
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE GestionSélectionDossier()
+      
+      // cas d'erreur
+      si ZR_DossiersFichiers <= 0 ou ZR_DossiersFichiers > ZR_DossiersFichiers..Occurrence ALORS
+      	retour
+      FIN
+      
+      // En mode sélection on ajoute un élément un la sélection
+      si gbModeSélection = vrai ALORS
+      	// On colorise l’élément sélectionné
+      	ZR_DossiersFichiers[ZR_DossiersFichiers].ATT_Selection = PAS(ZR_DossiersFichiers[ZR_DossiersFichiers].ATT_Selection)
+      	SI ZR_DossiersFichiers[ZR_DossiersFichiers].ATT_Selection = faux ALORS
+      		// Suppression de la sélection de la sélection
+      		ZR_DossiersFichiers[ZR_DossiersFichiers]..CouleurFond = Transparent
+      		
+      		// si plus de sélection
+      		gbModeSélection = VérifieSelection()
+      		
+      	SINON
+      		// On sélectionne l'élément en plus
+      		ZR_DossiersFichiers[ZR_DossiersFichiers]..CouleurFond = GrisFoncé
+      	FIN
+      sinon
+      	
+      	// On ouvre à nouveau la fenêtre avec paramètres différentes (permet d'avoir le retour d'activité via le bouton retour sans avoir à coder quoi que ce soit)
+      	gsFichierListe = ""
+      	ListerType(geTypeExtensionEnCours,Faux,ZR_DossiersFichiers[ZR_DossiersFichiers].ATT_CheminComplet)
+      	
+      	tantque gsFichierListe = ""
+      		multitache(-10)
+      	FIN
+      	
+      	// Vide 
+      	SI gsFichierListe = "__-1__" ALORS
+      		info(<§$0001§>)
+      		RETOUR
+      	FIN
+      		
+      	OuvreFenêtreMobile(FEN_AffichageDossier,gsFichierListe,ZR_DossiersFichiers[ZR_DossiersFichiers].LIB_Nom,geTypeExtensionEnCours,Faux,ZR_DossiersFichiers[ZR_DossiersFichiers].ATT_CheminComplet,"GestionOptionDispo")
+      		
+      FIN
+     type : 458752
+   -
+     name : AfficheContenu
+     procedure_id : 1737054258210082430
+     type_code : 14
+     code : |1-
+      // Résumé : Affiche le contenu de la variable gsListeAAfficher dans la fenêtre
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE AfficheContenu()
+      
+      // On vide la zone avant d'afficher le contenu 
+      ZoneRépétéeSupprimeTout(ZR_DossiersFichiers)
+      
+      si gbModeRep ALORS
+      	////////////////////////
+      	// MODE REPERTOIRE
+      	///////////////////////
+      	
+      	
+      	// Tableau contenant tous les fichiers / dossiers avec les informations pour leur affichages
+      	taDossier est un tableau associatif d'entiers
+      	
+      	// On récupère les dossiers contenant les fichiers
+      	POUR TOUTE CHAÎNE sFichier DE gsListeAAfficher SEPAREE PAR RC
+      		si taDossier[fExtraitChemin(sFichier,fDisque+fRépertoire)] = 0 ALORS
+      			// Nouveau dossier
+      			taDossier[fExtraitChemin(sFichier,fDisque+fRépertoire)] = 1
+      		sinon
+      			// Dossier déjà existant, on ajoute le fait qu'un fichier est aussi dans ce dossier
+      			taDossier[fExtraitChemin(sFichier,fDisque+fRépertoire)]+=1
+      		FIN
+      	FIN
+      	
+      	// On ajoute les dossiers
+      	pour tout nValeur,sClé de taDossier
+      	
+      		// Cas d'erreur
+      		si sClé ~= "" ALORS
+      			continuer
+      		FIN
+      		
+      		// Vérification de la recherche
+      		SI ACTB_ActionBar..ValeurRecherche <> "" _ET_ Contient(sClé,ACTB_ActionBar..ValeurRecherche,SansCasse) = Faux ALORS
+      			// passe à l'élément suivant
+      			CONTINUER
+      		FIN	
+      		
+      		// On récupère le nom du dossier contenant les fichiers
+      		nIndiceAjout est un entier = ZoneRépétéeAjouteLigne(ZR_DossiersFichiers)
+      		
+      		si sClé+[fsep] = SysRepCarteStockage()+[fsep] ALORS
+      			ZR_DossiersFichiers[nIndiceAjout].LIB_Nom = "Mémoire de stockage interne"
+      		sinon
+      			ZR_DossiersFichiers[nIndiceAjout].LIB_Nom = ExtraitChaîne(sClé,2,fSep,DepuisFin) + " (" + nValeur + ")"
+      		FIN
+      		
+      		// On remplit les infos
+      		ZR_DossiersFichiers[nIndiceAjout].ATT_CheminComplet = sClé
+      		ZR_DossiersFichiers[nIndiceAjout].ATT_Selection = faux
+      		ZR_DossiersFichiers[nIndiceAjout].ATT_Type = type_Dossier
+      	FIN
+      	
+      sinon
+      	
+      	////////////////////////
+      	// MODE FICHIER + REPERTOIRE
+      	///////////////////////
+      	
+      	POUR TOUTE CHAÎNE sFichier DE gsListeAAfficher SEPAREE PAR RC
+      		
+      		// Cas d'erreur
+      		SI sFichier ~= "" ALORS
+      			CONTINUER
+      		FIN
+      		
+      		// Vérification de la recherche
+      		SI ACTB_ActionBar..ValeurRecherche <> "" _ET_ Contient(sFichier,ACTB_ActionBar..ValeurRecherche,SansCasse) = Faux ALORS
+      			// passe à l'élément suivant
+      			CONTINUER
+      		FIN	
+      		
+      		// Indice d'ajout
+      		nIndiceAjout est un entier
+      		
+      		// Dossier ou fichier ?
+      		si fRepExiste(sFichier) = vrai ALORS
+      			// Dossier
+      			nIndiceAjout = ZoneRépétéeAjouteLigne(ZR_DossiersFichiers)
+      			
+      			
+      			// cas particulier de la mémoire interne
+      			si sFichier = SysRepCarteStockage ALORS
+      				ZR_DossiersFichiers[nIndiceAjout].LIB_Nom = "Mémoire de stockage interne"
+      			sinon
+      				ZR_DossiersFichiers[nIndiceAjout].LIB_Nom = ExtraitChaîne(sFichier,1,fSep,DepuisFin)
+      			FIN
+      			
+      			// On remplit les infos
+      			ZR_DossiersFichiers[nIndiceAjout].ATT_CheminComplet = sFichier
+      			ZR_DossiersFichiers[nIndiceAjout].ATT_Selection = Faux
+      			ZR_DossiersFichiers[nIndiceAjout].ATT_Type = type_Dossier
+      		sinon
+      			
+      			si fFichierExiste(sFichier) = vrai
+      				// Fichier
+      				nIndiceAjout = ZoneRépétéeAjouteLigne(ZR_DossiersFichiers)
+      				
+      				// On remplit les infos
+      				ZR_DossiersFichiers[nIndiceAjout].LIB_Nom = ExtraitChaîne(sFichier,1,fSep,DepuisFin)
+      				ZR_DossiersFichiers[nIndiceAjout].ATT_CheminComplet = sFichier
+      				ZR_DossiersFichiers[nIndiceAjout].ATT_Type = type_Fichier
+      				ZR_DossiersFichiers[nIndiceAjout].IMG_Logo = getImageSelonExtension(sFichier)
+      				ZR_DossiersFichiers[nIndiceAjout].ATT_Selection = Faux
+      			fin
+      		FIN
+      		
+      	FIN
+      FIN
+      
+      // Gère les options affichés dans l'action bar
+      GestionOptionDispo()
+     type : 458752
+   -
+     name : RécupèreSélection
+     procedure_id : 1737087338048426493
+     type_code : 14
+     code : |1+
+      // Résumé : Récupère les éléments sélectionnés dans la fenêtre
+      // Paramètres :
+      // Valeur de retour :
+      // 	chaîne UNICODE : liste des éléments sélectionnés
+      //
+      PROCEDURE RécupèreSélection() : chaine
+      
+      // On récupère la sélection 
+      sChaineSélection est une chaine = ""
+      
+      // Pour tous les éléments possiblement sélectionnés (la ZR)
+      POUR TOUTE LIGNE nIndice DE ZR_DossiersFichiers
+      	
+      	// Si l'élément est sélectionné on ajoute son chemin complet à la liste
+      	si ZR_DossiersFichiers[nIndice].ATT_Selection = Vrai ALORS		
+      		sChaineSélection+= [rc] + ZR_DossiersFichiers[nIndice].ATT_CheminComplet
+      	FIN
+      FIN
+      
+      // Renvoie la sélection
+      renvoyer sChaineSélection
+      
+     type : 458752
+   -
+     name : GestionSélectionFichier
+     procedure_id : 1742568115749095502
+     type_code : 14
+     code : |1+
+      // Résumé : Gère la sélection ou le lancement d'une application associée
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE GestionSélectionFichier()
+      
+      // cas d'erreur
+      SI ZR_DossiersFichiers <= 0 OU ZR_DossiersFichiers > ZR_DossiersFichiers..Occurrence ALORS
+      	RETOUR
+      FIN
+      
+      // Si on est en mode sélection, on ajoute un élément un la sélection
+      si gbModeSélection = vrai ALORS
+      	// On colorise l’élément sélectionné
+      	ZR_DossiersFichiers[ZR_DossiersFichiers].ATT_Selection = pas(ZR_DossiersFichiers[ZR_DossiersFichiers].ATT_Selection)
+      
+      	// Si l'élément est déjà sélectionné, alors son attribut vient de passer à faux	
+      	SI ZR_DossiersFichiers[ZR_DossiersFichiers].ATT_Selection = faux ALORS
+      		ZR_DossiersFichiers[ZR_DossiersFichiers]..CouleurFond = Transparent
+      		
+      		// si plus de sélection
+      		gbModeSélection = VérifieSelection()
+      		
+      	SINON
+      		// L'élément vient d'être sélectionné, changement de la couleur de fond
+      		ZR_DossiersFichiers[ZR_DossiersFichiers]..CouleurFond = GrisFoncé
+      	FIN
+      sinon
+      	// Sinon on lance l'application associés au fichier
+      	LanceAppliAssociée(ZR_DossiersFichiers.ATT_CheminComplet)
+      FIN
+     type : 458752
+   -
+     name : VérifieSelection
+     procedure_id : 1742663790441951214
+     type_code : 14
+     code : |1+
+      // Résumé : Vérifie la sélection courante
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si une sélection est encore en cours
+      //
+      PROCEDURE VérifieSelection() : booléen
+      
+      // Par défaut on a pas de sélection
+      bSelection est un booléen = Faux
+      
+      // parcourt la ZR
+      POUR i=1 _a_ ZR_DossiersFichiers..Occurrence
+      	
+      	// Une sélection ? 
+      	SI bSelection = Vrai ALORS renvoyer bSelection
+      	
+      	// Récupère l'attribut de la ZR
+      	bSelection = ZR_DossiersFichiers[i].ATT_Selection
+      FIN
+      
+      // Sélection ? (utile pour la dernière ligne
+      SI bSelection = Vrai ALORS RENVOYER bSelection
+      
+      // pas de sélection
+      renvoyer faux
+     type : 458752
+   -
+     name : InitialisationFenêtre
+     procedure_id : 1743775890618084684
+     type_code : 14
+     code : |1+
+      // Résumé : Initialise la fenêtre 
+      // Paramètres :
+      //	sNouveauFichier (chaîne UNICODE - valeur par défaut="") :Nouveau fichier à ajouter si besoin
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE InitialisationFenêtre(local sNouveauFichier est une chaine = "")
+      
+      // Récupère les éléments possiblement ajouté par les fenêtre précédente
+      gsListeAAfficher+=[rc]+sNouveauFichier
+      
+      // Affiche la ZR
+      ZR_DossiersFichiers..Visible = Vrai
+      
+      // Affiche contenu
+      AfficheContenu()
+      
+      // Gestion visibilité de l'option nouveau dossier
+      OPT_Nouveau_dossier..Visible = PAS gbModeRep
+      
+      // On gère la sélection et les options disponible
+      gbModeSélection = faux
+      GestionOptionDispo
+      
+      // Supprime sélection globale
+      ZoneRépétéeSelectMoins(ZR_DossiersFichiers)
+      
+     type : 458752
+   -
+     name : GestionOptionDispo
+     procedure_id : 1744856135025048903
+     type_code : 14
+     code : |1+
+      // Résumé : Gère les options disponibles selon les éléments sélectionnés
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE GestionOptionDispo()
+      
+      // récupère la sélection
+      bEtatSelection est un booléen = VérifieSelection()
+      
+      // Met à jour la visibilité des options
+      OPT_Copier..Visible = bEtatSelection
+      OPT_Couper..Visible = bEtatSelection
+      OPT_Supprimer..Visible = bEtatSelection
+      OPT_Zip..Visible = bEtatSelection
+      
+      
+      // On ne peut renommer qu'un élément, on ajuste la visibilité de l'option en fonction de la sélection courante 
+      sSelectionCourante est une chaine = RécupèreSélection()
+      si sSelectionCourante = "" ou contient(sSelectionCourante,rc) ALORS
+      	OPT_Renommer..Visible = faux
+      sinon	
+      	OPT_Renommer..Visible = vrai
+      FIN
+      
+      // gestion du mode copier, couper, coller
+      si gnModeCopierCouper = AucuneOpération ALORS
+      	OPT_Coller..Visible= faux
+      sinon
+      	OPT_Coller..Visible= Vrai
+      FIN
+      
+     type : 458752
+   -
+     name : AnnuleSélection
+     procedure_id : 1745166639685263747
+     type_code : 14
+     code : |1+
+      // Résumé : Annule la sélection courante
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE AnnuleSélection()
+      
+      
+      // Annule la sélection
+      pour TOUTE LIGNE i DE ZR_DossiersFichiers
+      	ZR_DossiersFichiers[ZR_DossiersFichiers]..CouleurFond = Transparent
+      	ZR_DossiersFichiers[ZR_DossiersFichiers].ATT_Selection = faux
+      FIN
+      
+      // RAZ des infos
+      gbModeSélection = Faux
+      GestionOptionDispo()
+      
+     type : 458752
+   -
+     name : SuppressionElement
+     procedure_id : 1754083794950157747
+     type_code : 14
+     code : |1+
+      // Résumé : Supprime un élément
+      // Paramètres :
+      //	sCheminComplet (chaîne UNICODE) : Chemin de l'élément
+      //	sType (chaîne UNICODE - valeur par défaut="") : Type de fichier
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE SuppressionElement(local sCheminComplet est une chaine, local sType est une chaine = "")
+      
+      
+      // Si type inconnue, alors on regarde si c'est un dossier ou un fichier
+      si fRepExiste(sCheminComplet) ALORS
+      	sType = type_Dossier
+      FIN
+      si fFichierExiste(sCheminComplet) ALORS
+      	sType = type_Fichier
+      FIN
+      
+      // Selon le type de l'élément courant
+      SELON sType
+      
+      	// Dossier
+      	CAS type_Dossier
+      		
+      		// Supprime le dossier en récursif
+      		SI fRepSupprime(sCheminComplet,frRécursif)	 = Faux ALORS
+      			Erreur(ErreurInfo(errComplet))
+      			RETOUR
+      		FIN
+      		
+      		// Supprime l'élément de la liste à afficher
+      		gsListeAAfficher = 	Remplace(gsListeAAfficher,sCheminComplet,"")
+      		
+      	// Fichier				
+      	CAS type_Fichier
+      		
+      		// Supprime le fichier
+      		SI fSupprime(sCheminComplet) = Faux ALORS
+      			Erreur(ErreurInfo(errComplet))
+      			RETOUR
+      		FIN
+      		
+      		// Supprime l'élément de la liste à afficher
+      		gsListeAAfficher = 	Remplace(gsListeAAfficher,sCheminComplet,"")	
+      		
+      		
+      	AUTRE CAS
+      		// Erreur
+      		Erreur("Type inconnue")
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x181af22b00259616
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      fr-FR : Pas de fichiers trouvé
+     index : 0
+   -
+     text :
+      fr-FR : Le répertoire est vide
+     index : 1
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
